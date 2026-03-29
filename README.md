@@ -35,7 +35,7 @@ Here's what is in there so far:
 
 Todo get this working for rev1
 
-'```
+```
 qmk compile -c -kb crkbd/ergokeeb/standard -km dizave46
 ```
 
