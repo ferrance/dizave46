@@ -141,6 +141,8 @@ void leader_end_user(void) {
         SEND_STRING("Supreme Court");
     } else if (leader_sequence_three_keys(KC_R, KC_O, KC_G)) {
         SEND_STRING("Interrogatory");
+    } else if (leader_sequence_four_keys(KC_R, KC_O, KC_G, KC_S)) {
+        SEND_STRING("Interrogatories");
     } else if (leader_sequence_four_keys(KC_B, KC_E, KC_R, KC_N)) {
         SEND_STRING("Bernalillo");
     } else if (leader_sequence_four_keys(KC_N, KC_M, KC_S, KC_C)) {
@@ -309,12 +311,6 @@ bool dizave_process_record_user(uint16_t keycode, keyrecord_t *record)
     case DZ_P2D:
       if (record->event.pressed) {
         SEND_STRING("P.2d");
-      }
-      return false;
-
-    case DZ_NM2:
-      if (record->event.pressed) {
-         SEND_STRING("New Mexico");
       }
       return false;
 

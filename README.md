@@ -2,6 +2,14 @@ todo
 
 ![crkbd dizave46](https://raw.githubusercontent.com/ferrance/dizave46/main/images/crkbd-dizave46.png)
 
+## Combos 
+
+| Combo         | Result
+| tab + q       | escape
+| spc + enter   | leader key
+| bkspc + a     | caps lock
+
+
 ## Legal layer
 
 I've rethought this layer during the port to vial, using tapdance for families of legal key.
@@ -28,6 +36,7 @@ Here's what is in there so far:
 | PO    | P.O. Box
 | PR    | Personal Representative
 | ROG   | Interrogatory
+| ROGS  | Interrogatories
 | SA    | Supervised Administrator
 | SC    | Supreme Court
 
