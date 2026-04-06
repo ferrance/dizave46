@@ -4,7 +4,10 @@ todo
 
 ## Combos 
 
-| Combo         | Result
+Some important keys are set up as combos:
+
+| Combo | Result
+| ----- | ---
 | tab + q       | escape
 | spc + enter   | leader key
 | bkspc + a     | caps lock
@@ -21,6 +24,7 @@ NMCA - hit once for -NMCA-, twice for -NMSC-
 
 I'm giving the leader key a try for things I have to type a lot.
 Here's what is in there so far:
+
 
 | code  | expands to 
 | ----- | ---
